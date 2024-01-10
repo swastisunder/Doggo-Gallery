@@ -1,0 +1,56 @@
+/* Reset some default Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: azure; /* Light blue background */
+  margin: 0;
+  min-height: 100vh;
+  margin-top: 3rem;
+}
+
+/* Header Style */
+h1 {
+  font-size: 4rem;
+  color: #9932cc; /* Dark orchid color for the header */
+  margin: 2rem;
+  font-family: "Exo", sans-serif;
+}
+
+/* Button Style */
+button {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px black;
+  transition: 0.3s ease-in-out;
+  color: azure;
+  background: #9932cc; /* Dark orchid color for the button */
+  cursor: pointer;
+  margin-bottom: 2rem;
+  font-family: "Exo", sans-serif;
+}
+
+button:hover {
+  transform: scale(0.95);
+  box-shadow: 0 0 4px black;
+}
+
+/* Image Style */
+img {
+  max-width: 90%;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #9932cc; /* Dark orchid border for the image */
+  border-radius: 8px;
+}
