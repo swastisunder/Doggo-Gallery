@@ -18,4 +18,4 @@ An interactive web app that fetches random dog images with a single click. Explo
 ## Credits
 
 - Dog images fetched from "https://dog.ceo/".
-- Built with love by @swastisunder-badatya.
+- Built with love by swastisunder.
